@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="911e750e-2664-45ed-b9ae-b42655a942e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../RSocket">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WICdrs7UcrdXCe7ScMTCnGYYR5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.IoSocket">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="RSocket.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="Socket.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IoSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IoSocket" />
+      <module name="Socket.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSocket" />
+      <module name="Socket.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OkHttpSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OkHttpSocket" />
+      <module name="Socket.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.JavaSocket" />
+        <item itemvalue="Application.OkHttpSocket" />
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.IoSocket" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="911e750e-2664-45ed-b9ae-b42655a942e8" name="Default Changelist" comment="" />
+      <created>1578827811645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578827811645</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="105" key="#Project_Structure" timestamp="1578827978281">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="320" y="105" key="#Project_Structure/0.23.1440.831@0.23.1440.831" timestamp="1578827978281" />
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578838452639">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1578838452639" />
+    <state width="440" height="466" key="DebuggerActiveHint" timestamp="1578829082841">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="440" height="466" key="DebuggerActiveHint/0.23.1440.831@0.23.1440.831" timestamp="1578829082841" />
+    <state width="1358" height="301" key="GridCell.Tab.0.bottom" timestamp="1578951507410">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1358" height="301" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578951507410" />
+    <state width="1358" height="301" key="GridCell.Tab.0.center" timestamp="1578951507409">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1358" height="301" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1578951507409" />
+    <state width="1358" height="301" key="GridCell.Tab.0.left" timestamp="1578951507409">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1358" height="301" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1578951507409" />
+    <state width="1358" height="301" key="GridCell.Tab.0.right" timestamp="1578951507409">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1358" height="301" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1578951507409" />
+    <state width="1358" height="251" key="GridCell.Tab.1.bottom" timestamp="1578837965809">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578837965809" />
+    <state width="1358" height="251" key="GridCell.Tab.1.center" timestamp="1578837965809">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1578837965809" />
+    <state width="1358" height="251" key="GridCell.Tab.1.left" timestamp="1578837965809">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1578837965809" />
+    <state width="1358" height="251" key="GridCell.Tab.1.right" timestamp="1578837965809">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state width="1358" height="251" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1578837965809" />
+    <state x="208" y="23" width="1024" height="831" key="SettingsEditor" timestamp="1578828704611">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="208" y="23" width="1024" height="831" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1578828704611" />
+    <state x="374" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1578827832166">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="374" y="273" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1578827832166" />
+    <state x="97" y="32" key="new project wizard" timestamp="1578834141356">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="97" y="32" key="new project wizard/0.23.1440.831@0.23.1440.831" timestamp="1578834141356" />
+  </component>
+</project>
