@@ -19,6 +19,7 @@ public class PusherWebSocket implements ConnectionEventListener, ChannelEventLis
     private final Pusher pusher;
     private final String channelName;
     private final String eventName;
+    private final String token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImlzcyI6Imh0dHA6Ly9venppci5pc25hbGJhbmlhLmNvbS9hcGkvdjEvbG9naW4iLCJpYXQiOjE1NzkyNzA2MjMsImV4cCI6MTc5NTI3MDYyMywibmJmIjoxNTc5MjcwNjIzLCJqdGkiOiJERnk0c0xwRVE5S1ZEZ3JsIn0.ORyQBHPBeRT6vO_AQrhLYM3ymfbnKUnsdUHnA-fhZlo";
     private final long startTime = System.currentTimeMillis();
 
     public static void main(String[] args) {
@@ -30,19 +31,19 @@ public class PusherWebSocket implements ConnectionEventListener, ChannelEventLis
         final String apiKey = args.length > 0 ? args[0] : "3925904600fe97c1a1d8"; //"161717a55e65825bacf1";
         channelName = args.length > 1 ? args[1] : "ride.42.offer";
         eventName = args.length > 2 ? args[2] : "DriverAcceptedEvent";
-        final HttpAuthorizer authorization = new HttpAuthorizer(Constants.HOST_NAME);
+        final HttpAuthorizer authorization = new HttpAuthorizer(Constants.HOST_URL);
         final Map<String, String> header = new HashMap<>();
-        header.put("Authorization", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9venppci5pc25hbGJhbmlhLmNvbS9hcGkvdjEvbG9naW4iLCJpYXQiOjE1Nzg5Mzk1OTYsImV4cCI6MTc5NDkzOTU5NiwibmJmIjoxNTc4OTM5NTk2LCJqdGkiOiJtcmJiVG9IWGdyMWVCdkNzIn0.f2wAqvDINs3e_WuNDc4eRPpV2vSMwdtBdlx_DbVU_hg");
+        header.put("Authorization", "Bearer " + token);
         authorization.setHeaders(header);
         final PusherOptions options = new PusherOptions().setEncrypted(true);
-        options.setHost(Constants.HOST);
-        options.setWsPort(6001);
+        options.setHost(Constants.HOST_NAME);
+        options.setWssPort(Constants.HOST_PORT);
         options.setAuthorizer(authorization);
         pusher = new Pusher(apiKey, options);
         pusher.connect(this);
 
         //pusher.subscribe(channelName, this, eventName);
-        pusher.subscribePrivate("private-driver.2.ride.42.offer",
+        pusher.subscribePrivate("private-driver.2.ride.1.offer",
                 new PrivateChannelEventListener() {
                     @Override
                     public void onEvent(PusherEvent event) {
@@ -59,7 +60,43 @@ public class PusherWebSocket implements ConnectionEventListener, ChannelEventLis
                     public void onAuthenticationFailure(String message, Exception e) {
                         String.format("Authentication failure due to [%s], exception was [%s]", message, e);
                     }
-                });
+                }, "Modules\\OzzirApi\\Events\\PassangerInquireEvent");
+        pusher.subscribePrivate("private-driver.2.ride.1.accept",
+                new PrivateChannelEventListener() {
+                    @Override
+                    public void onEvent(PusherEvent event) {
+                        String.format("onEvent onSubscriptionSucceeded [%s]", event.getEventName());
+                    }
+
+                    @Override
+                    public void onSubscriptionSucceeded(String channelName) {
+                        String.format("subscribePrivate onSubscriptionSucceeded [%s]", channelName);
+
+                    }
+
+                    @Override
+                    public void onAuthenticationFailure(String message, Exception e) {
+                        String.format("Authentication failure due to [%s], exception was [%s]", message, e);
+                    }
+                }, "Modules\\OzzirApi\\Events\\AcceptEvent");
+        pusher.subscribePrivate("private-driver.2.new-ride",
+                new PrivateChannelEventListener() {
+                    @Override
+                    public void onEvent(PusherEvent event) {
+                        String.format("onEvent onSubscriptionSucceeded [%s]", event.getEventName());
+                    }
+
+                    @Override
+                    public void onSubscriptionSucceeded(String channelName) {
+                        String.format("subscribePrivate onSubscriptionSucceeded [%s]", channelName);
+
+                    }
+
+                    @Override
+                    public void onAuthenticationFailure(String message, Exception e) {
+                        String.format("Authentication failure due to [%s], exception was [%s]", message, e);
+                    }
+                }, "Modules\\OzzirApi\\Events\\DriverAcceptEvent");
 
         // Keep main thread asleep while we watch for events or application will
         // terminate
