@@ -12,12 +12,6 @@ import java.util.Map;
 
 public class IoSocket {
     public static void main(String[] args) {
-
-        int HOST_PORT = 6001;
-        final String HOST_NAME = "http://ozzir.isnalbania.com:6001";
-        final String HOST_IP = "http://91.205.172.97:6001";
-        final String CHAT_SERVER_URL = "http://socket-io-chat.now.sh/";
-        final String TRAMP_SERVER_URL = "ws://rsocket-demo.herokuapp.com";
         System.out.println("Start");
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.level(HttpLoggingInterceptor.Level.HEADERS);
@@ -37,7 +31,7 @@ public class IoSocket {
         // opts.callFactory = okHttpClient;
         // opts.webSocketFactory = okHttpClient;
         try {
-            Socket socket = IO.socket(HOST_NAME, opts);
+            Socket socket = IO.socket(Constants.HOST_NAME, opts);
 
             socket.on(Manager.EVENT_TRANSPORT, new Emitter.Listener() {
                 @Override

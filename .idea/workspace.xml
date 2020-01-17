@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="911e750e-2664-45ed-b9ae-b42655a942e8" name="Default Changelist" comment="" />
+    <list default="true" id="911e750e-2664-45ed-b9ae-b42655a942e8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PusherWebSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$11$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$11$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IoSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IoSocket.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,10 +54,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WICdrs7UcrdXCe7ScMTCnGYYR5" />
   <component name="ProjectViewState">
@@ -38,11 +70,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.IoSocket">
+  <component name="RunManager" selected="Application.PusherWebSocket">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="RSocket.main" />
@@ -52,13 +85,6 @@
     </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="Socket.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IoSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IoSocket" />
       <module name="Socket.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,13 +104,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PusherWebSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PusherWebSocket" />
+      <module name="Socket.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PusherWebSocket" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.JavaSocket" />
         <item itemvalue="Application.OkHttpSocket" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.IoSocket" />
       </list>
     </recent_temporary>
   </component>
@@ -118,46 +151,50 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="320" y="105" key="#Project_Structure/0.23.1440.831@0.23.1440.831" timestamp="1578827978281" />
-    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578838452639">
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579121598730">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1578838452639" />
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1579121598730" />
+    <state x="513" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1579122618432">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="513" y="141" key="#com.intellij.ide.util.MemberChooser/0.23.1440.831@0.23.1440.831" timestamp="1579122618432" />
     <state width="440" height="466" key="DebuggerActiveHint" timestamp="1578829082841">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="440" height="466" key="DebuggerActiveHint/0.23.1440.831@0.23.1440.831" timestamp="1578829082841" />
-    <state width="1358" height="301" key="GridCell.Tab.0.bottom" timestamp="1578951507410">
+    <state width="1358" height="301" key="GridCell.Tab.0.bottom" timestamp="1579126407095">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="301" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578951507410" />
-    <state width="1358" height="301" key="GridCell.Tab.0.center" timestamp="1578951507409">
+    <state width="1358" height="301" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1579126407095" />
+    <state width="1358" height="301" key="GridCell.Tab.0.center" timestamp="1579126407094">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="301" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1578951507409" />
-    <state width="1358" height="301" key="GridCell.Tab.0.left" timestamp="1578951507409">
+    <state width="1358" height="301" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1579126407094" />
+    <state width="1358" height="301" key="GridCell.Tab.0.left" timestamp="1579126407094">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="301" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1578951507409" />
-    <state width="1358" height="301" key="GridCell.Tab.0.right" timestamp="1578951507409">
+    <state width="1358" height="301" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1579126407094" />
+    <state width="1358" height="301" key="GridCell.Tab.0.right" timestamp="1579126407095">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="301" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1578951507409" />
-    <state width="1358" height="251" key="GridCell.Tab.1.bottom" timestamp="1578837965809">
+    <state width="1358" height="301" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1579126407095" />
+    <state width="1358" height="251" key="GridCell.Tab.1.bottom" timestamp="1579122753470">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1578837965809" />
-    <state width="1358" height="251" key="GridCell.Tab.1.center" timestamp="1578837965809">
+    <state width="1358" height="251" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1579122753470" />
+    <state width="1358" height="251" key="GridCell.Tab.1.center" timestamp="1579122753470">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1578837965809" />
-    <state width="1358" height="251" key="GridCell.Tab.1.left" timestamp="1578837965809">
+    <state width="1358" height="251" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1579122753470" />
+    <state width="1358" height="251" key="GridCell.Tab.1.left" timestamp="1579122753470">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1578837965809" />
-    <state width="1358" height="251" key="GridCell.Tab.1.right" timestamp="1578837965809">
+    <state width="1358" height="251" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1579122753470" />
+    <state width="1358" height="251" key="GridCell.Tab.1.right" timestamp="1579122753470">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1578837965809" />
+    <state width="1358" height="251" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1579122753470" />
     <state x="208" y="23" width="1024" height="831" key="SettingsEditor" timestamp="1578828704611">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
@@ -170,5 +207,16 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="97" y="32" key="new project wizard/0.23.1440.831@0.23.1440.831" timestamp="1578834141356" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PusherWebSocket.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
