@@ -9,6 +9,7 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -20,4 +21,5 @@ dependencies {
     implementation("com.squareup.okhttp3:logging-interceptor:4.3.1")
     implementation "com.pusher:pusher-java-client:2.0.2"
     implementation "org.slf4j:slf4j-api:2.0.0-alpha1"
+    implementation 'com.github.MrBin99:LaravelEchoAndroid:1.0.2'
 }

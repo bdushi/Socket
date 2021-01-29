@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="911e750e-2664-45ed-b9ae-b42655a942e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DebugPusherWebSocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
@@ -10,12 +9,36 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/DebugPusherWebSocket$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/DebugPusherWebSocket$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/DebugPusherWebSocket$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/DebugPusherWebSocket$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/DebugPusherWebSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/DebugPusherWebSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$11$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/IoSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/IoSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/OkHttpSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/OkHttpSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PusherWebSocket$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PusherWebSocket$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PusherWebSocket$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PusherWebSocket$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PusherWebSocket$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/PusherWebSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PusherWebSocket.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DebugPusherWebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DebugPusherWebSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IoSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IoSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OkHttpSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OkHttpSocket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PusherWebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PusherWebSocket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +57,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -63,13 +91,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.PusherWebSocket">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <module name="Socket.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DebugPusherWebSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DebugPusherWebSocket" />
       <module name="Socket.main" />
@@ -77,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSocket" />
+    <configuration name="IoSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IoSocket" />
       <module name="Socket.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,20 +119,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Socket [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.JavaSocket" />
+      <item itemvalue="Application.DebugPusherWebSocket" />
+      <item itemvalue="Application.IoSocket" />
       <item itemvalue="Application.OkHttpSocket" />
       <item itemvalue="Application.PusherWebSocket" />
-      <item itemvalue="Application.DebugPusherWebSocket" />
+      <item itemvalue="Gradle.Socket [dependencies]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DebugPusherWebSocket" />
         <item itemvalue="Application.PusherWebSocket" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.JavaSocket" />
         <item itemvalue="Application.OkHttpSocket" />
+        <item itemvalue="Application.IoSocket" />
+        <item itemvalue="Gradle.Socket [dependencies]" />
+        <item itemvalue="Application.DebugPusherWebSocket" />
       </list>
     </recent_temporary>
   </component>
@@ -145,70 +185,104 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="320" y="105" key="#Project_Structure/0.23.1440.831@0.23.1440.831" timestamp="1578827978281" />
-    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579266731647">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="-3" y="-957" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579685514468">
+      <screen x="-248" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1579266731647" />
+    <state x="-3" y="-957" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579685514468" />
+    <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1579611613438" />
     <state x="184" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1579121598730" />
-    <state x="513" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1579122618432">
-      <screen x="0" y="23" width="1440" height="831" />
+    <state x="436" y="-927" key="#com.intellij.ide.util.MemberChooser" timestamp="1579509808847">
+      <screen x="-248" y="-1080" width="1920" height="1080" />
     </state>
+    <state x="436" y="-927" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-248.-1080.1920.1080@-248.-1080.1920.1080" timestamp="1579509808847" />
     <state x="513" y="141" key="#com.intellij.ide.util.MemberChooser/0.23.1440.831@0.23.1440.831" timestamp="1579122618432" />
     <state width="440" height="466" key="DebuggerActiveHint" timestamp="1578829082841">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state width="440" height="466" key="DebuggerActiveHint/0.23.1440.831@0.23.1440.831" timestamp="1578829082841" />
-    <state width="1358" height="199" key="GridCell.Tab.0.bottom" timestamp="1579271335054">
+    <state width="1878" height="489" key="GridCell.Tab.0.bottom" timestamp="1580199170218">
       <screen x="-248" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579271335054" />
-    <state width="1358" height="159" key="GridCell.Tab.0.bottom/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1579267057920" />
-    <state width="1358" height="301" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1579126407095" />
-    <state width="1358" height="199" key="GridCell.Tab.0.center" timestamp="1579271335053">
+    <state width="1878" height="489" key="GridCell.Tab.0.bottom/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1580199170218" />
+    <state width="1398" height="368" key="GridCell.Tab.0.bottom/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1580134334314" />
+    <state width="1398" height="368" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1580054784840" />
+    <state width="1878" height="489" key="GridCell.Tab.0.center" timestamp="1580199170218">
       <screen x="-248" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579271335053" />
-    <state width="1358" height="159" key="GridCell.Tab.0.center/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1579267057920" />
-    <state width="1358" height="301" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1579126407094" />
-    <state width="1358" height="199" key="GridCell.Tab.0.left" timestamp="1579271335053">
+    <state width="1878" height="489" key="GridCell.Tab.0.center/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1580199170218" />
+    <state width="1398" height="368" key="GridCell.Tab.0.center/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1580134334313" />
+    <state width="1398" height="368" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1580054784839" />
+    <state width="1878" height="489" key="GridCell.Tab.0.left" timestamp="1580199170217">
       <screen x="-248" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579271335053" />
-    <state width="1358" height="159" key="GridCell.Tab.0.left/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1579267057919" />
-    <state width="1358" height="301" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1579126407094" />
-    <state width="1358" height="199" key="GridCell.Tab.0.right" timestamp="1579271335053">
+    <state width="1878" height="489" key="GridCell.Tab.0.left/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1580199170217" />
+    <state width="1398" height="368" key="GridCell.Tab.0.left/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1580134334313" />
+    <state width="1398" height="368" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1580054784839" />
+    <state width="1878" height="489" key="GridCell.Tab.0.right" timestamp="1580199170218">
       <screen x="-248" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579271335053" />
-    <state width="1358" height="159" key="GridCell.Tab.0.right/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1579267057920" />
-    <state width="1358" height="301" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1579126407095" />
-    <state width="1358" height="251" key="GridCell.Tab.1.bottom" timestamp="1579122753470">
+    <state width="1878" height="489" key="GridCell.Tab.0.right/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1580199170218" />
+    <state width="1398" height="368" key="GridCell.Tab.0.right/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1580134334314" />
+    <state width="1398" height="368" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1580054784840" />
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom" timestamp="1580134332327">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1579122753470" />
-    <state width="1358" height="251" key="GridCell.Tab.1.center" timestamp="1579122753470">
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579687170494" />
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1580134332327" />
+    <state width="1398" height="266" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1579714737085" />
+    <state width="1398" height="266" key="GridCell.Tab.1.center" timestamp="1580134332327">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1579122753470" />
-    <state width="1358" height="251" key="GridCell.Tab.1.left" timestamp="1579122753470">
+    <state width="1878" height="357" key="GridCell.Tab.1.center/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579687170494" />
+    <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1580134332327" />
+    <state width="1398" height="266" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1579714737085" />
+    <state width="1398" height="266" key="GridCell.Tab.1.left" timestamp="1580134332327">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1579122753470" />
-    <state width="1358" height="251" key="GridCell.Tab.1.right" timestamp="1579122753470">
+    <state width="1878" height="357" key="GridCell.Tab.1.left/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579687170494" />
+    <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1580134332327" />
+    <state width="1398" height="266" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1579714737084" />
+    <state width="1398" height="266" key="GridCell.Tab.1.right" timestamp="1580134332327">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state width="1358" height="251" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1579122753470" />
-    <state x="208" y="23" width="1024" height="831" key="SettingsEditor" timestamp="1578828704611">
+    <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579687170494" />
+    <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.831/-248.-1057.1920.1057@0.23.1440.831" timestamp="1580134332327" />
+    <state width="1398" height="266" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1579714737085" />
+    <state x="208" y="23" width="1024" height="831" key="SettingsEditor" timestamp="1580047599484">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
-    <state x="208" y="23" width="1024" height="831" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1578828704611" />
+    <state x="208" y="23" width="1024" height="831" key="SettingsEditor/0.23.1440.831@0.23.1440.831" timestamp="1580047599484" />
     <state x="374" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1578827832166">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="374" y="273" key="com.intellij.ide.util.TipDialog/0.23.1440.831@0.23.1440.831" timestamp="1578827832166" />
+    <state x="255" y="-1007" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579686017111">
+      <screen x="-248" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="255" y="-1007" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.831/-248.-1057.1920.1057@-248.-1057.1920.1057" timestamp="1579686017111" />
+    <state x="377" y="62" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.831@0.23.1440.831" timestamp="1579545522355" />
     <state x="97" y="32" key="new project wizard" timestamp="1578834141356">
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="97" y="32" key="new project wizard/0.23.1440.831@0.23.1440.831" timestamp="1578834141356" />
+    <state x="365" y="178" key="search.everywhere.popup" timestamp="1579542646416">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="365" y="178" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1579542646416" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pusher/pusher-java-client/2.0.2/63cd97199fc63aee3af486620b6f54329c909e20/pusher-java-client-2.0.2-sources.jar!/com/pusher/client/PusherOptions.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Socket$PusherWebSocket.ic" NAME="PusherWebSocket Coverage Results" MODIFIED="1580133448300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Socket$DebugPusherWebSocket.ic" NAME="DebugPusherWebSocket Coverage Results" MODIFIED="1579541786655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

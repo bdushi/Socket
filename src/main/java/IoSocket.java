@@ -1,14 +1,11 @@
 import io.socket.client.IO;
-import io.socket.client.Manager;
 import io.socket.client.Socket;
 import io.socket.emitter.Emitter;
-import io.socket.engineio.client.Transport;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import org.json.JSONObject;
 
 import java.net.URISyntaxException;
-import java.util.Map;
 
 public class IoSocket {
     public static void main(String[] args) {
@@ -16,39 +13,26 @@ public class IoSocket {
         HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
         logging.level(HttpLoggingInterceptor.Level.HEADERS);
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
-                .addInterceptor(new TokenInterceptor(String.format("%s %s", "Bearer", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9venppci5pc25hbGJhbmlhLmNvbS9hcGkvdjEvbG9naW4iLCJpYXQiOjE1Nzg5Mzk1OTYsImV4cCI6MTc5NDkzOTU5NiwibmJmIjoxNTc4OTM5NTk2LCJqdGkiOiJtcmJiVG9IWGdyMWVCdkNzIn0.f2wAqvDINs3e_WuNDc4eRPpV2vSMwdtBdlx_DbVU_hg")))
+                .addInterceptor(new TokenInterceptor(String.format("%s %s", "Bearer", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImlzcyI6Imh0dHA6Ly9venppci5pc25hbGJhbmlhLmNvbS9hcGkvdjEvbG9naW4iLCJpYXQiOjE1Nzk2MTE1NjAsImV4cCI6MTc5NTYxMTU2MCwibmJmIjoxNTc5NjExNTYwLCJqdGkiOiJDY0VJcnNXS1R2ZVhZdWdOIn0.M9di3r16ljHGTH_iRo2e8NX-0THr5pXoJqe-n3exyUI")))
                 .addInterceptor(logging)
                 //.hostnameVerifier(myHostnameVerifier)
                 //.sslSocketFactory(mySSLContext.getSocketFactory(), myX509TrustManager)
                 .build();
         // default settings for all sockets
-        // IO.setDefaultOkHttpWebSocketFactory(okHttpClient);
-        // IO.setDefaultOkHttpCallFactory(okHttpClient);
+        IO.setDefaultOkHttpWebSocketFactory(okHttpClient);
+        IO.setDefaultOkHttpCallFactory(okHttpClient);
         // set as an option
         IO.Options opts = new IO.Options();
-        opts.query = "Authorization=" + String.format("%s %s", "Bearer", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9venppci5pc25hbGJhbmlhLmNvbS9hcGkvdjEvbG9naW4iLCJpYXQiOjE1Nzg5Mzk1OTYsImV4cCI6MTc5NDkzOTU5NiwibmJmIjoxNTc4OTM5NTk2LCJqdGkiOiJtcmJiVG9IWGdyMWVCdkNzIn0.f2wAqvDINs3e_WuNDc4eRPpV2vSMwdtBdlx_DbVU_hg");
-        // opts.port = 6001;
+        // opts.query = "Authorization=" + String.format("%s %s", "Bearer", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjIsImlzcyI6Imh0dHA6Ly9venppci5pc25hbGJhbmlhLmNvbS9hcGkvdjEvbG9naW4iLCJpYXQiOjE1Nzk2MTE1NjAsImV4cCI6MTc5NTYxMTU2MCwibmJmIjoxNTc5NjExNTYwLCJqdGkiOiJDY0VJcnNXS1R2ZVhZdWdOIn0.M9di3r16ljHGTH_iRo2e8NX-0THr5pXoJqe-n3exyUI");
+        opts.port = 6001;
+        opts.hostname = Constants.HOST_NAME;
+        opts.host = Constants.HOST_URL;
+        opts.secure = false;
         // opts.callFactory = okHttpClient;
         // opts.webSocketFactory = okHttpClient;
         try {
-            Socket socket = IO.socket(Constants.HOST_NAME, opts);
-
-            socket.on(Manager.EVENT_TRANSPORT, new Emitter.Listener() {
-                @Override
-                public void call(Object... args) {
-                    Transport transport = (Transport)args[0];
-                    transport.on(Transport.EVENT_REQUEST_HEADERS, new Emitter.Listener() {
-                        @Override
-                        public void call(Object... args) {
-                            @SuppressWarnings("unchecked")
-                            Map<String, String> headers = (Map<String, String>) args[0];
-                            // set header
-                            headers.put("Authorization", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9venppci5pc25hbGJhbmlhLmNvbS9hcGkvdjEvbG9naW4iLCJpYXQiOjE1Nzg5Mzk1OTYsImV4cCI6MTc5NDkzOTU5NiwibmJmIjoxNTc4OTM5NTk2LCJqdGkiOiJtcmJiVG9IWGdyMWVCdkNzIn0.f2wAqvDINs3e_WuNDc4eRPpV2vSMwdtBdlx_DbVU_hg");
-                        }
-                    });
-                }
-                // trump
-            }).on("trump", new Emitter.Listener() {
+            Socket socket = IO.socket(Constants.HOST_URL, opts);
+            socket.on("trump", new Emitter.Listener() {
                 @Override
                 public void call(Object... args) {
                     JSONObject data = (JSONObject) args[0];
@@ -72,12 +56,12 @@ public class IoSocket {
                     System.out.println("private-driver.2.ride.42.offer: " + data);
                 }
 
-            }).on("ride.42.offer", new Emitter.Listener() {
+            }).on("driver.2.new-ride", new Emitter.Listener() {
                 @Override
                 public void call(Object... args) {
                     JSONObject data = (JSONObject) args[0];
-                    System.out.println("ride.42.offer length: " + args.length);
-                    System.out.println("ride.42.offer: " + data);
+                    System.out.println("driver.2.new-ride: " + args.length);
+                    System.out.println("driver.2.new-ride: " + data);
                 }
 
             }).on(Socket.EVENT_MESSAGE, new Emitter.Listener() {
@@ -117,6 +101,7 @@ public class IoSocket {
                 }
             });
             socket.connect();
+            System.out.println("Connected: " + socket.connected());
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }

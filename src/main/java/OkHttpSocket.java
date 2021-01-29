@@ -19,7 +19,7 @@ public class OkHttpSocket {
                         .addInterceptor(new TokenInterceptor(String.format("%s %s", "Bearer", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6Ly9venppci5pc25hbGJhbmlhLmNvbS9hcGkvdjEvbG9naW4iLCJpYXQiOjE1Nzg5Mzk1OTYsImV4cCI6MTc5NDkzOTU5NiwibmJmIjoxNTc4OTM5NTk2LCJqdGkiOiJtcmJiVG9IWGdyMWVCdkNzIn0.f2wAqvDINs3e_WuNDc4eRPpV2vSMwdtBdlx_DbVU_hg")))
                         .addInterceptor(logging)
                         .build();
-        Request requestCoinPrice = new Request.Builder().url("http://ozzir.isnalbania.com").build();
+        Request requestCoinPrice = new Request.Builder().url(Constants.CHAT_SERVER_URL).build();
         clientCoinPrice.newWebSocket(requestCoinPrice, webSocketListenerCoinPrice);
         clientCoinPrice.dispatcher().executorService().shutdown();
     }
